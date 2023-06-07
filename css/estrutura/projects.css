@@ -1,0 +1,112 @@
+/* Habilidade que possuo */
+
+.experience {
+    width: 50vw;
+}
+
+.skills_me {
+    border: none;
+    padding: 0.7rem 0.7rem;
+    color: #ffffff;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    background-color: #171a21;
+    font-family: 'Motiva Sans';
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    width: 48vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.menuIcon {
+    width: 7%;
+    margin-left: 2.5rem;
+}
+
+/* Projetos realizados*/
+
+.container_project {
+    border: none;
+    padding: 0.7rem 0.7rem;
+    color: #ffffff;
+    width: 48vw;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background-color: #171a21;
+    font-family: 'Motiva Sans';
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.container_proje {
+
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.projects {
+    margin-left: 7.5rem;
+    margin-top: 2rem;
+    max-width: 50rem;
+    border: none;
+
+}
+
+
+
+.card {
+
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #6563FF;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #0003;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+
+
+.card:not(:first-child) {
+
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.card:hover~.card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+
+    color: #fff;
+    font-weight: 200;
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Motiva Sans';
+    font-size: 1rem;
+    justify-content: center;
+
+}
+
+/*habilidades*/

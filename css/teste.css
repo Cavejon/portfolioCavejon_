@@ -1,0 +1,507 @@
+@import url('https://fonts.cdnfonts.com/css/motiva-sans');
+
+
+
+/*Nav Superior*/
+
+.top_nav {
+    border: none;
+    width: 100%;
+    height: 80px;
+    font-family: "Motiva Sans", Sans-serif;
+    background: #171a21;
+}
+
+.content_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menuitem {
+    padding: 0.7rem 2rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+
+.menuitem:hover {
+    color: #b8b6b4;
+    box-shadow: #101214;
+}
+
+/*Nav Superior*/
+
+/*Conteiner principal da página*/
+
+.profile_container {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/*Conteiner principal da página*/
+
+/*Textos e foto do perfil*/
+.header_profile {
+
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#picture {
+    width: 90%;
+    margin: 1rem 2rem;
+}
+
+.flames{
+    width: 17rem;
+    margin: 0 1rem;
+    position: absolute;
+}
+
+.content_txt {
+    margin: 1rem 2rem;
+    width: 50%;
+}
+
+.profile_header {
+    font-family: 'Motiva Sans';
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.profile_name {
+    font-family: 'Motiva Sans';
+    font-size: 0.8rem;
+    line-height: 2;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.profile_studie {
+    font-family: 'Motiva Sans';
+    font-size: 0.8rem;
+    line-height: 2;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+
+.objetivo {
+    font-family: 'Motiva Sans';
+    font-size: 0.8rem;
+    line-height: 2;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+#mesa {
+    width: 3%;
+}
+
+#icon_react {
+    width: 3%;
+}
+
+/*Textos e foto do perfil*/
+
+/* Insignia e level*/
+
+.profile_header_badgeinfo {
+    margin-top: 1rem;
+}
+
+.lvl_xp {
+    border: none;
+    display: flex;
+    margin-left: 3.3rem;
+    margin-top: 1rem;
+}
+
+.persona_level {
+    font-family: 'Motiva Sans';
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.PlayerLevelNum {
+    font-size: 1.3rem;
+    font-family: 'Motiva Sans';
+    border: solid #6563FF 2px;
+    border-radius: 50%;
+    /* display: flex; */
+    line-height: 1.7rem;
+    text-align: center;
+    cursor: default;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    color: #ffffff;
+}
+
+.progress {
+    width: 13rem;
+    height: 5px;
+    border-radius: 20px;
+
+}
+
+.progress-wrap {
+    background: rgba(5, 5, 107, 1);
+    background: -moz-linear-gradient(left, rgba(5, 5, 107, 1) 0%, rgba(18, 18, 120, 1) 28%, rgba(22, 22, 145, 1) 39%, rgba(37, 34, 189, 1) 54%, rgba(102, 99, 255, 1) 73%, rgba(147, 147, 207, 1) 94%, rgba(147, 147, 207, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(5, 5, 107, 1)), color-stop(28%, rgba(18, 18, 120, 1)), color-stop(39%, rgba(22, 22, 145, 1)), color-stop(54%, rgba(37, 34, 189, 1)), color-stop(73%, rgba(102, 99, 255, 1)), color-stop(94%, rgba(147, 147, 207, 1)), color-stop(100%, rgba(147, 147, 207, 1)));
+    background: -webkit-linear-gradient(left, rgba(5, 5, 107, 1) 0%, rgba(18, 18, 120, 1) 28%, rgba(22, 22, 145, 1) 39%, rgba(37, 34, 189, 1) 54%, rgba(102, 99, 255, 1) 73%, rgba(147, 147, 207, 1) 94%, rgba(147, 147, 207, 1) 100%);
+    background: -o-linear-gradient(left, rgba(5, 5, 107, 1) 0%, rgba(18, 18, 120, 1) 28%, rgba(22, 22, 145, 1) 39%, rgba(37, 34, 189, 1) 54%, rgba(102, 99, 255, 1) 73%, rgba(147, 147, 207, 1) 94%, rgba(147, 147, 207, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(5, 5, 107, 1) 0%, rgba(18, 18, 120, 1) 28%, rgba(22, 22, 145, 1) 39%, rgba(37, 34, 189, 1) 54%, rgba(102, 99, 255, 1) 73%, rgba(147, 147, 207, 1) 94%, rgba(147, 147, 207, 1) 100%);
+    background: linear-gradient(to right, rgba(5, 5, 107, 1) 0%, rgba(18, 18, 120, 1) 28%, rgba(22, 22, 145, 1) 39%, rgba(37, 34, 189, 1) 54%, rgba(102, 99, 255, 1) 73%, rgba(147, 147, 207, 1) 94%, rgba(147, 147, 207, 1) 100%);
+    margin: 7px 52px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-wrap .progress-bar {
+    background: #ddd;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.profile_header_badge {
+    border-radius: 4px;
+    display: flex;
+    background-color: #171a21;
+    width: 15rem;
+    margin-left: 3.3rem;
+}
+
+.badge_icon {
+    width: 50px;
+    margin-left: 0.6rem;
+}
+
+.favorite_badge_description {
+    margin-left: 0.6rem;
+    margin-top: 0.2rem;
+    padding: 0.5rem;
+}
+
+.name {
+    color: #ffffff;
+    font-family: 'Motiva Sans';
+    font-size: 0.9rem;
+}
+
+.xp {
+    color: #ffffff;
+    font-family: 'Motiva Sans';
+    font-size: 0.6rem;
+}
+
+#recompensas {
+    font-family: 'Motiva Sans';
+    color: #ffffff;
+    font-size: 0.7rem;
+    margin-left: 3.4rem;
+}
+
+#recompensas:hover {
+    color: #6563FF;
+    animation: ease 2 ease;
+}
+
+
+.underline {
+    position: relative;
+}
+
+.underline::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #6563FF;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .underline:hover::before {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
+
+/* Insignia e level*/
+
+/*container com a orientação da página*/
+
+.container_principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+}
+
+/*container com a orientação da página*/
+
+/* Sobre mim*/
+
+.about_me {
+    border: none;
+    padding: 0.7rem 0.7rem;
+    color: #ffffff;
+    max-width: 50vw;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    background-color: #171a21;
+    font-family: 'Motiva Sans';
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.value {
+    font-family: 'Motiva Sans';
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.value:hover {
+    color: #6563FF;
+}
+
+.sub_content {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    height: 10vh;
+    max-width: 50vw;
+    margin-left: 2rem;
+    padding: 3rem 3rem;
+
+}
+
+.label {
+    font-family: 'Motiva Sans';
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#txt_my {
+    width: 70%;
+    margin-left: 10rem;
+    font-family: 'Motiva Sans';
+    padding: 0.4em 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: 'Motiva Sans';
+    line-height: 2;
+    text-align: justify;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+/* Sobre mim*/
+
+/* Habilidade que possuo */
+
+.experience {
+    max-width: 50vw;
+}
+
+.skills_me {
+    border: none;
+    padding: 0.7rem 0.7rem;
+    color: #ffffff;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    background-color: #171a21;
+    font-family: 'Motiva Sans';
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    width: 48vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.menuIcon {
+    width: 7%;
+    margin-left: 2.5rem;
+}
+
+/* Projetos realizados*/
+
+.container_project {
+    border: none;
+    padding: 0.7rem 0.7rem;
+    color: #ffffff;
+    max-width: 48vw;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background-color: #171a21;
+    font-family: 'Motiva Sans';
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.container_proje {
+
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.projects {
+    margin-left: 7.5rem;
+    margin-top: 2rem;
+    max-width: 50rem;
+    border: none;
+
+}
+
+
+
+.card {
+
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #6563FF;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #0003;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+
+
+.card:not(:first-child) {
+
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.card:hover~.card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+
+    color: #fff;
+    font-weight: 200;
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Motiva Sans';
+    font-size: 1rem;
+    justify-content: center;
+
+}
+
+/*habilidades*/
+
+/* Api Wpp*/
+.float {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 9px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+/*wpp*/
+
+/* Campo direito do portfólio*/
+
+.second {
+    border: none;
+    max-width: 20rem;
+    height: 30rem;
+    background: rgb(23, 26, 33);
+    background: linear-gradient(180deg, rgba(23, 26, 33, 1) 13%, rgba(12, 13, 17, 0.555) 60%, rgba(0, 0, 0, 0.11) 82%);
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.certification {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 2rem 8rem;
+    gap: 2rem;
+
+}
+
+.online {
+    font-weight: 200;
+    font-family: 'Motiva Sans';
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #6563FF;
+}
+
+.box>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Motiva Sans';
+    color: #ffffff;
+}
+
+.box>a:hover {
+    color: #6563FF;
+    
+}

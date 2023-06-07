@@ -1,0 +1,34 @@
+/*Nav Superior*/
+
+.top_nav {
+    border: none;
+    width: 100%;
+    height: 80px;
+    font-family: "Motiva Sans", Sans-serif;
+    background: #171a21;
+}
+
+.content_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menuitem {
+    padding: 0.7rem 2rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+
+.menuitem:hover {
+    color: #b8b6b4;
+    box-shadow: #101214;
+}
+
+/*Nav Superior*/
