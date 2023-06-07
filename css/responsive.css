@@ -90,9 +90,9 @@
 }
 
 .sub_content {
-  padding: 0;
-  margin: 1rem 5rem 0rem 5rem;
-  gap: 2rem;
+  padding: 0rem;
+  margin: 1rem 12rem;
+  gap: 3rem;
 }
 
 .profile_header_badge {
@@ -107,11 +107,11 @@
 }
 
 .lvl_xp {
-  margin: 0 6rem;
+   margin: 0 auto;
 }
 
 .progress-wrap {
-  margin: 1rem;
+  margin: 1rem auto;
   width: 17rem;
 }
 
@@ -171,8 +171,8 @@ p {
 }
 
 #txt_my {
-  margin-left: 0rem;
-  width: 100%;
+  margin:0 auto;
+  width: 100vw;
 }
 }
 
@@ -200,6 +200,7 @@ p {
 
   .profile_container {
     width: 100%;
+
   }
 
   .header_profile {
