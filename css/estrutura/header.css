@@ -11,7 +11,8 @@
     margin: 1rem 2rem;
 }
 
-.flames{
+
+.flames {
     width: 17rem;
     margin: 0 1rem;
     position: absolute;
@@ -60,6 +61,20 @@
 
 #icon_react {
     width: 3%;
+}
+
+#badge_link{
+    text-decoration: none;
+    font-family: 'Motiva Sans';
+    display: flex;
+    margin: 0.5rem 5rem;
+    font-size: 0.8rem;
+    color:#ffffff;
+    white-space: nowrap;
+}
+
+#badge_link:hover{
+    color: #6563FF;
 }
 
 /*Textos e foto do perfil*/
@@ -134,7 +149,7 @@
 }
 
 .badge_icon {
-    width: 50px;
+    width: 30px;
     margin-left: 0.6rem;
 }
 
@@ -161,16 +176,18 @@
     color: #ffffff;
     font-size: 0.7rem;
     margin-left: 3.4rem;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 #recompensas:hover {
     color: #6563FF;
-    animation: ease 2 ease;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 
 .underline {
     position: relative;
+
 }
 
 .underline::before {

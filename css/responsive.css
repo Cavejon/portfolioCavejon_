@@ -40,140 +40,140 @@
   }
 
 
-.about_me {
-  width: 90%;
-  margin-left: 0;
-  margin: 0 auto;
-}
+  .about_me {
+    width: 90%;
+    margin-left: 0;
+    margin: 0 auto;
+  }
 
-.profile_header {
-  font-size: 1.7rem;
+  .profile_header {
+    font-size: 1.7rem;
     /* margin: 0 auto; */
     display: flex;
     justify-content: flex-start;
 
-}
+  }
 
-.profile_name {
-  font-size: 0.5rem;
-  white-space: nowrap;
-}
+  .profile_name {
+    font-size: 0.5rem;
+    white-space: nowrap;
+  }
 
-.profile_studie {
-  font-size: 0.6rem;
-  white-space: nowrap;
-}
+  .profile_studie {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
 
-#mesa {
-  width: 15px;
-}
+  #mesa {
+    width: 15px;
+  }
 
-.objetivo {
-  font-size: 0.6rem;
-  white-space: nowrap;
-}
+  .objetivo {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
 
-.child {
-  width: 100%;
-}
+  .child {
+    width: 100%;
+  }
 
-#icon_react {
-  width: 15px;
-}
+  #icon_react {
+    width: 15px;
+  }
 
-.profile_header_badgeinfo {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  .profile_header_badgeinfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
-}
+  }
 
-.sub_content {
-  padding: 0rem;
-  margin: 1rem 12rem;
-  gap: 3rem;
-}
+  .sub_content {
+    padding: 0rem;
+    margin: 1rem 12rem;
+    gap: 3rem;
+  }
 
-.profile_header_badge {
-  width: 16rem;
-  margin: 0 auto;
-}
+  .profile_header_badge {
+    width: 16rem;
+    margin: 0 auto;
+  }
 
-#recompensas {
-  margin: 0 6rem;
-  white-space: nowrap;
-  margin-bottom: 1rem;
-}
+  #recompensas {
+    margin: 0 6rem;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+  }
 
-.lvl_xp {
-   margin: 0 auto;
-}
+  .lvl_xp {
+    margin: 0 auto;
+  }
 
-.progress-wrap {
-  margin: 1rem auto;
-  width: 17rem;
-}
+  .progress-wrap {
+    margin: 1rem auto;
+    width: 17rem;
+  }
 
-p {
-  font-size: 0.8rem;
-  margin-left: 0;
-  margin-top: 0rem;
-}
+  p {
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-top: 0rem;
+  }
 
-.experience {
-  width: 100vw;
-}
+  .experience {
+    width: 100vw;
+  }
 
-.content_about {
-  width: 320px;
-}
+  .content_about {
+    width: 320px;
+  }
 
-.second {
-  display: none;
-}
+  .second {
+    display: none;
+  }
 
-.menuitem {
-  padding: 0;
-  font-size: 0.6rem;
-  margin-left: 1rem;
-  margin-top: 2rem;
-}
+  .menuitem {
+    padding: 0;
+    font-size: 0.6rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
 
-.container_proje {
+  .container_proje {
 
-  width: 300px;
-  margin: 0 auto;
-  /* margin-left: 20px; */
-  /* margin-top: 20px; */
-  display: flex;
-}
+    width: 300px;
+    margin: 0 auto;
+    /* margin-left: 20px; */
+    /* margin-top: 20px; */
+    display: flex;
+  }
 
-.skills_me {
-  margin: 0 auto;
-  width: 90%;
-}
+  .skills_me {
+    margin: 0 auto;
+    width: 90%;
+  }
 
 
 
-.projects {
-  margin-left: 0rem;
-  margin-top: 2rem;
-  max-width: 50rem;
-  border: none;
+  .projects {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    max-width: 50rem;
+    border: none;
 
-}
+  }
 
-.container_project {
-  width: 90%;
-  margin: 1rem auto;
+  .container_project {
+    width: 90%;
+    margin: 1rem auto;
 
-}
+  }
 
-#txt_my {
-  margin:0 auto;
-  width: 100vw;
-}
+  #txt_my {
+    margin: 0 auto;
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width:481px) and (max-width:767px) {
@@ -631,14 +631,24 @@ p {
 
 /**/
 @media screen and (min-width:1201px) {
+  
+  *{
+    text-decoration: none;
+  }
+  
   .top_nav {
     height: 10vh;
     width: 100%;
   }
+  .card{
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+  }
 
   .menuitem {
     font-size: 0.8rem;
-    padding: 0.5rem 2rem;
+    padding: 1.5rem 2rem;
   }
 
   .profile_header {
@@ -709,9 +719,10 @@ p {
   }
 
   .sub_content {
-    width: 80%;
+    width: 100%;
     padding: 1rem;
-    margin: 0 5rem;
+    margin: 0 4rem;
+}
   }
 
   .child {
@@ -719,7 +730,7 @@ p {
   }
 
   .second {
-    width: 15rem;
+    width: 100%;
     /* margin-right: 9rem; */
     display: flex;
     align-items: center;
@@ -734,8 +745,10 @@ p {
   }
 
   .menuIcon {
-    width: 2rem;
-    margin-left: 2rem;
+
+    width: 3rem;
+    height: 3rem;
+    margin: 0 3.5%;
   }
 
   .projects {
@@ -744,13 +757,20 @@ p {
 
   }
 
+
+  .skills_me{
+    width: 62vw;
+  }
+
+.container_project{
+  width: 62vw;
+}
   .container_proje {
-    height: 300px;
-    width: 524px;
-    margin: 0 auto;
-    margin-left: 50px;
-    margin-top: 11px;
+    
+    width: 61vw;
+    margin: 1rem 2.4rem;
     display: flex;
+
   }
 
   .online {
@@ -760,4 +780,3 @@ p {
   .box {
     font-size: 0.8rem;
   }
-}

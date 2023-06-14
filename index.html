@@ -31,9 +31,11 @@
     <main>
         <div class="profile_container">
             <div class="header_profile">
-                <div class="picture">
-                    <img src="/imgs/picture_profile.jpg" alt="foto perfil" id="picture">
-                <!--<img src="/imgs/441c842d0a004472197b448c5dc26e4ab43afe37.png" alt="foto perfil" class="flames">-->
+                <div class="container_photo">
+                    <div class="picture">
+                        <img src="/imgs/picture_profile.jpg" alt="foto perfil" id="picture">
+                    </div>
+                    <!-- <img src="/imgs/441c842d0a004472197b448c5dc26e4ab43afe37.png" alt="foto perfil" class="flames">-->
                 </div>
                 <!--Info ao lado da foto-->
                 <div class="content_txt">
@@ -61,18 +63,20 @@
                     </div>
                     <div class="profile_header_badge">
                         <div class="favorite_badge_icon" data-tooltip-html="Vessel Insígnia de Hollow Knight nível 5">
-                            <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/367520/df72a8ea82b1b351d0987514821d12af5f02b6c8.png"
-                                class="badge_icon small">
+                            <img src="/icons/icon10.webp" alt="" class="badges_icon badge_icon small">
+
                         </div>
                         <div class="favorite_badge_description">
                             <div class="name">
-                                One More Language</div>
-                            <div class="xp">1000 XP</div>
+                                Desenvolvedor Front-End</div>
+                            <div class="xp">4000 XP</div>
                         </div>
+                        
 
                     </div>
-                    <span id="recompensas" class="underline">Ver progresso de níveis</span>
+                    <a href="/pages/badge.html" id="badge_link">Ver progresso de insignias</a>
                 </div>
+
             </div>
             <div class="container_principal">
                 <div class="child">
@@ -152,14 +156,7 @@
                             Habilidades
                         </p>
                         <div class="icons">
-                            <img src="/icons/css3-02-svgrepo-com.svg" title="teste" alt="logo html" class="menuIcon">
-                            <img src="/icons/django-svgrepo-com.svg" alt="logo html" class="menuIcon">
-                            <img src="/icons/git-svgrepo-com.svg" alt="logo html" class="menuIcon">
-                            <img src="/icons/html5-02-svgrepo-com.svg" alt="logo html" class="menuIcon">
-                            <img src="/icons/java-svgrepo-com.svg" alt="logo html" class="menuIcon">
-                            <img src="/icons/js-svgrepo-com.svg" alt="logo html" class="menuIcon">
-                            <img src="/icons/mysql-svgrepo-com.svg" alt="logo html" class="menuIcon">
-                            <img src="/icons/python-127-svgrepo-com.svg" alt="logo html" class="menuIcon">
+                           
                         </div>
                     </div>
 
@@ -176,6 +173,14 @@
                                     class="txt">
                                     <h3 class="title">Quatenus Storage</h3>
                                 </a>
+                            </div>
+                            <div class="card"><a href="https://github.com/Cavejon/fabricaDeCarros/tree/main"
+                                class="txt">
+                                <h3 class="title">Fabrica de carros</h3>
+                            </a>
+                        </div>
+                            <div class="card">
+                                <h3 class="title">Coming Soon</h3>
                             </div>
                             <div class="card">
                                 <h3 class="title">Coming Soon</h3>
@@ -194,13 +199,28 @@
                             <h2 class="online">Online</h2>
                         </div>
 
-                        <div class="box">
-                            <a href="#">Linkedin</a>
-                            <a href="#">GitHub</a>
-                            <a href="#">Email</a>
-                            <a href="#">Telefone</a>
-                        </div>
+                        <ul class="wrapper">
+                            <li class="icon facebook">
+                              <span class="tooltip">Facebook</span>
+                              <span><i class="fab fa-facebook-f"></i></span>
+                            </li>
+                            <li class="icon twitter">
+                              <span class="tooltip">Twitter</span>
+                              <span><i class="fab fa-twitter"></i></span>
+                            </li>
+                            <li class="icon instagram">
+                              <span class="tooltip">Instagram</span>
+                              <span><i class="fab fa-instagram"></i></span>
+                            </li>
+                            <li class="icon github">
+                              <span class="tooltip">Github</span>
+                              <span><i class="fab fa-github"></i></span>
+                            </li>
+                          </ul>
+
+
                     </div>
+
                 </div>
             </div>
         </div>

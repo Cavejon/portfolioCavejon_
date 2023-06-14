@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/motiva-sans');
+*{
+    font-family: 'Motiva Sans';
+}
+
+.badge_profile {
+
+    margin: 0 auto;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+
+
+}
+
+.header_profile {
+
+    height: 20rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    margin: 1rem 7rem;
+    overflow: scroll;
+}
+
+.box {
+    border: none;
+    width: 100%;
+}
+
+.one{
+    margin: 1rem 5rem 0px;
+}
+
+.second{
+    margin: 1rem 5rem 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#picture{
+    width: 15rem;
+    
+}
+
+.badge_container {
+
+    height: 14rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 50vw;
+    height: 100%;
+}
+
+
+
+.id1 {
+    display: flex;
+    box-shadow: inset 19px 13px 89px 33px rgba(16, 18, 23, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 7px 10px;
+    width: 21rem;
+
+}
+
+span {
+    top: 0px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.badges_icon {
+    width: 40px;
+    margin-left: 0.6rem;
+}

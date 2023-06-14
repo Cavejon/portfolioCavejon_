@@ -4,6 +4,15 @@
     width: 50vw;
 }
 
+.projects {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 50rem;
+    border: none;
+
+}
+
 .skills_me {
     border: none;
     padding: 0.7rem 0.7rem;
@@ -14,20 +23,15 @@
     font-family: 'Motiva Sans';
     font-weight: 400;
     border-radius: 5px;
+    width: 43vw;
 }
 
 .icons {
     display: flex;
-    width: 48vw;
-    margin-left: 2rem;
-    margin-top: 1rem;
-
+    flex-direction: row;
+    width: 100%;
 }
 
-.menuIcon {
-    width: 7%;
-    margin-left: 2.5rem;
-}
 
 /* Projetos realizados*/
 
@@ -35,7 +39,7 @@
     border: none;
     padding: 0.7rem 0.7rem;
     color: #ffffff;
-    width: 48vw;
+    width: 43vw;
     margin-left: 2rem;
     margin-top: 2rem;
     font-size: 0.9rem;
@@ -56,13 +60,7 @@
     display: flex;
 }
 
-.projects {
-    margin-left: 7.5rem;
-    margin-top: 2rem;
-    max-width: 50rem;
-    border: none;
 
-}
 
 
 
