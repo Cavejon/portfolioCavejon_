@@ -626,6 +626,7 @@
   .icons {
     width: 10rem;
   }
+  
 
 }
 
@@ -634,6 +635,9 @@
   
   *{
     text-decoration: none;
+  }
+  .profile_container{
+    width: 72%;
   }
   
   .top_nav {
@@ -648,7 +652,7 @@
 
   .menuitem {
     font-size: 0.8rem;
-    padding: 1.5rem 2rem;
+    padding: 0.5rem 2rem;
   }
 
   .profile_header {

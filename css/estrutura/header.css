@@ -63,17 +63,18 @@
     width: 3%;
 }
 
-#badge_link{
+#badge_link {
     text-decoration: none;
     font-family: 'Motiva Sans';
     display: flex;
-    margin: 0.5rem 5rem;
-    font-size: 0.8rem;
-    color:#ffffff;
+    margin: 0.5rem;
+    font-size: 0.6rem;
+    color: #ffffff;
     white-space: nowrap;
+    font-weight: 700;
 }
 
-#badge_link:hover{
+#badge_link:hover {
     color: #6563FF;
 }
 
@@ -209,4 +210,53 @@
     }
 }
 
-/* Insignia e level*/
+#badge_link {
+    background-image: linear-gradient(to right,
+            #6563FF,
+            #6563FF 50%,
+            #fff 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out ;
+    font-family: 'Motiva Sans';
+    
+}
+
+#badge_link:before {
+    content: '';
+    background: #6563FF;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    animation: infinite;
+   
+}
+
+#badge_link:hover {
+    background-position: 0;
+}
+
+#badge_link:hover::before {
+    width: 100%;
+    
+}
+
+@keyframes animation{
+    from {
+        width: 0%;
+      }
+    
+      to {
+        width: 100%;
+        
+      }
+}
